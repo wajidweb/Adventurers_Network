@@ -1,5 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { RiWechatPayFill } from "react-icons/ri";
+import { PiPencilRulerFill } from "react-icons/pi";
+import { GiUpgrade } from "react-icons/gi";
+
+
 export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg  " style={{backgroundColor: "rgb(238,238,238)"}}>
@@ -34,17 +39,17 @@ export default function Header() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link to="/" className="nav-link">
-                Forum
+              <RiWechatPayFill /> Forum
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="nav-link">
-                Rules
+              <PiPencilRulerFill /> Rules
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/" className="nav-link">
-                Upgrade
+              <GiUpgrade /> Upgrade
               </Link>
             </li>
           </ul>
