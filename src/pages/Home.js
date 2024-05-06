@@ -161,7 +161,7 @@ export default function Home() {
                         aria-labelledby="panelsStayOpen-headingTwo"
                       >
                         <div className="accordion-body">
-                          <div className="d-flexflex-lg-row flex-column align-items-center justify-content-between border-bottom mb-2">
+                          <div className="d-flex flex-lg-row flex-column align-items-center justify-content-between border-bottom mb-2">
                             <div className="d-flex align-items-center justify-content-center pe-3">
                               <FaUsers style={{ fontSize: "30px" }} />
                             </div>
