@@ -85,7 +85,7 @@ export default function Home() {
                               <FaNewspaper style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p className="fw-bold " style={{cursor: "pointer"}}>News & Announcements</p>
+                              <p className="fw-bold customStyle" style={{cursor: "pointer"}}>News & Announcements</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -171,7 +171,7 @@ export default function Home() {
                               <FaUsers style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p className="fw-bold" style={{cursor: "pointer"}}>Hidden Spots</p>
+                              <p className="fw-bold customStyle" style={{cursor: "pointer"}}>Hidden Spots</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -234,7 +234,7 @@ export default function Home() {
                               <FaBook style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p className="fw-bold" style={{cursor: "pointer"}}>Travel Experiences</p>
+                              <p className="fw-bold customStyle" style={{cursor: "pointer"}}>Travel Experiences</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -293,7 +293,7 @@ export default function Home() {
                               <FaBook style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p className="fw-bold" style={{cursor: "pointer"}}>Meetup</p>
+                              <p className="fw-bold customStyle" style={{cursor: "pointer"}}>Meetup</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -378,7 +378,7 @@ export default function Home() {
                               <GiCoffeeCup   style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p className="fw-bold" style={{cursor: "pointer"}}>The Lounge</p>
+                              <p className="fw-bold customStyle" style={{cursor: "pointer"}}>The Lounge</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -476,7 +476,7 @@ export default function Home() {
                               <GiFireplace />
                               <span className="ms-1 "> Discussion </span>{" "}
                             </span>
-                           <span className="ms-1 fw-bold" style={{cursor: "pointer"}}> I want to sell my soul to the devil</span>
+                           <span className="ms-1 fw-bold customStyle" style={{cursor: "pointer"}}> I want to sell my soul to the devil</span>
                           </p>
                         </div>
                         <p>Started by uglybrat . 14 minutes ago</p>
@@ -505,7 +505,7 @@ export default function Home() {
                               <GiFireplace />
                               <span className="ms-1 "> Discussion </span>{" "}
                             </span>
-                           <span className="ms-1 fw-bold "  style={{cursor: "pointer"}}> I want to sell my soul to the devil</span>
+                           <span className="ms-1 fw-bold customStyle"  style={{cursor: "pointer"}}> I want to sell my soul to the devil</span>
                           </p>
                         </div>
                         <p>Started by uglybrat . 14 minutes ago</p>
@@ -534,7 +534,7 @@ export default function Home() {
                               <GiFireplace />
                               <span className="ms-1 "> Discussion </span>{" "}
                             </span>
-                           <span className="ms-1 fw-bold"  style={{cursor: "pointer"}}> I want to sell my soul to the devil</span>
+                           <span className="ms-1 fw-bold customStyle"  style={{cursor: "pointer"}}> I want to sell my soul to the devil</span>
                           </p>
                         </div>
                         <p>Started by uglybrat . 14 minutes ago</p>
