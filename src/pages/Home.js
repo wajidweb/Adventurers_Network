@@ -6,7 +6,8 @@ import { TiMessages } from "react-icons/ti";
 import { FaMessage } from "react-icons/fa6";
 import { FaNewspaper } from "react-icons/fa";
 import { ImNewspaper } from "react-icons/im";
-import { GiCoffeeCup } from "react-icons/gi";
+import { GiCelebrationFire } from "react-icons/gi";
+
 import { MdViewComfyAlt } from "react-icons/md";
 import { FaUsers } from "react-icons/fa6";
 import { FaBook } from "react-icons/fa";
@@ -14,7 +15,7 @@ import { GiFireplace } from "react-icons/gi";
 import { FaPlusSquare } from "react-icons/fa";
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container " >
       <section className="container-fluid p-4">
         <p>
           Formus <FaAngleRight />{" "}
@@ -92,11 +93,12 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1" >
-                              <p>Threads</p>
+                            <p>Messages</p>
                               <p>236</p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                              <p>Messages</p>
+                            
+                              <p>Threads</p>
                               <p>2.9k</p>
                             </div>
                             <div className="d-flex flex-row">
@@ -177,11 +179,12 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                              <p>Threads</p>
+                            <p>Messages</p>
                               <p>6.1k</p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                              <p>Messages</p>
+                              
+                              <p>Threads</p>
                               <p>80k</p>
                             </div>
                             <div className="d-flex flex-row">
@@ -298,12 +301,13 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                              <p>Threads</p>
-                              <p>999</p>
+                            <p>Messages</p>
+                              <p>15.1k</p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                              <p>Messages</p>
-                              <p>15.1k</p>
+                            
+                              <p>Threads</p>
+                              <p>999</p>
                             </div>
                             <div className="d-flex flex-row">
                               <div style={{ width: "50px", height: "50px" }}>
@@ -368,7 +372,7 @@ export default function Home() {
                         <div className="accordion-body">
                           <div className="d-flex flex-lg-row flex-column align-items-center justify-content-between">
                             <div className="d-flex align-items-center justify-content-center pe-3">
-                              <GiCoffeeCup style={{ fontSize: "30px" }} />
+                              <GiCelebrationFire  style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
                               <p>The Lounge</p>
@@ -382,12 +386,13 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                              <p>Threads</p>
-                              <p>40.7k</p>
-                            </div>
-                            <div className="d-flex flex-column ms-1 me-1">
+                            
                               <p>Messages</p>
                               <p>15.1k</p>
+                            </div>
+                            <div className="d-flex flex-column ms-1 me-1">
+                            <p>Threads</p>
+                              <p>40.7k</p>
                             </div>
                             <div className="d-flex flex-row">
                               <div style={{ width: "50px", height: "50px" }}>

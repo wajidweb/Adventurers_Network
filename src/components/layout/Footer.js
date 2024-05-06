@@ -7,15 +7,15 @@ export default function Footer() {
   return (
     <div className="mt-2">
       <footer
-        className=" text-center text-lg-start text-white"
-        style={{ backgroundColor: "#221f4a" }}
+        className=" text-center text-lg-start text-black"
+        style={{ backgroundColor: "rgb(242,242,242)" }}
       >
         {/* Grid container */}
         <div className="container p-4">
           {/*Grid row*/}
           <div className="row">
             {/*Grid column*/}
-            <div className="col-lg-6 col-md-12 mb-4 mb-md-0 d-flex flex-row text-white">
+            <div className="col-lg-6 col-md-12 mb-4 mb-md-0 d-flex flex-row text-secondary">
                 <div className="d-flex flex-row ">
                <FaPaintBrush />
                     <p className="ms-2">Style Chooser</p>
@@ -29,22 +29,22 @@ export default function Footer() {
             <div className="col-lg-6 col-md-12 mb-4 mb-md-0 d-flex justify-content-end">
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">
+                  <a class="nav-link text-secondary" href="#">
                     Contact Us
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">
+                  <a class="nav-link text-secondary" href="#">
                     Terms and rule
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">
+                  <a class="nav-link text-secondary" href="#">
                     Privacy Policy
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">
+                  <a class="nav-link text-secondary" href="#">
                     Help
                   </a>
                 </li>
