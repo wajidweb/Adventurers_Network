@@ -8,3 +8,13 @@ body{
 .container{
   max-width: 1550px;
 }
+
+.customStyle{
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.customStyle:hover{
+  text-decoration: underline;
+}

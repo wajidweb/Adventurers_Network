@@ -114,8 +114,8 @@ export default function Home() {
                                 />
                               </div>
                               <div className="d-flex flex-column">
-                                <div className="d-flex flex-row align-items-center justify-content-center">
-                                  <div className="ms-2">
+                                <div className="d-flex flex-row align-items-start justify-content-center" >
+                                  <div className="ms-2" >
                                     {" "}
                                     <button
                                       type="button"
@@ -126,7 +126,7 @@ export default function Home() {
                                     </button>
                                   </div>
                                   <div>
-                                    <p  className="ms-2 " style={{cursor: "pointer"}}>Discord Server</p>
+                                    <Link className="ms-2 customStyle" style={{cursor: "pointer"}}>Discord Server</Link>
                                   </div>
                                 </div>
                                 <div className="ms-2">
@@ -200,7 +200,7 @@ export default function Home() {
                                 />
                               </div>
                               <div className="d-flex flex-column">
-                                <div className="d-flex flex-row align-items-center justify-content-center">
+                                <div className="d-flex flex-row align-items-start justify-content-center">
                                   <div className="ms-2">
                                     
                                     <button type="button" class="btn btn-info p-0 ps-1 pe-1 ">
@@ -211,7 +211,7 @@ export default function Home() {
                                     </button>
                                   </div>
                                   <div>
-                                    <p className="ms-2" style={{cursor: "pointer"}}>
+                                    <p className="ms-2 customStyle" style={{cursor: "pointer"}}>
                                       NEETing as a minimalist
                                     </p>
                                   </div>
@@ -262,7 +262,7 @@ export default function Home() {
                                 />
                               </div>
                               <div className="d-flex flex-column">
-                                <div className="d-flex flex-row align-items-center justify-content-center">
+                                <div className="d-flex flex-row align-items-start justify-content-center">
                                 <div className="ms-2">
                                     
                                     <button type="button" class="btn btn-info  p-0 ps-1 pe-1 ">
@@ -273,7 +273,7 @@ export default function Home() {
                                     </button>
                                   </div>
                                   <div>
-                                    <p className="ms-2" style={{cursor: "pointer"}}>
+                                    <p className="ms-2 customStyle" style={{cursor: "pointer"}}>
                                     NEETing as a minimalist
                                     </p>
                                   </div>
@@ -322,7 +322,7 @@ export default function Home() {
                                 />
                               </div>
                               <div className="d-flex flex-column">
-                                <div className="d-flex flex-row align-items-center justify-content-center">
+                                <div className="d-flex flex-row align-items-start justify-content-center">
                                 <div className="ms-2">
                                     
                                     <button type="button" class="btn btn-info p-0 ps-1 pe-1  ">
@@ -333,7 +333,7 @@ export default function Home() {
                                     </button>
                                   </div>
                                   <div>
-                                    <p className="ms-2" style={{cursor: "pointer"}}>
+                                    <p className="ms-2 customStyle" style={{cursor: "pointer"}}>
                                     NEETing as a minimalist
                                     </p>
                                   </div>
@@ -407,7 +407,7 @@ export default function Home() {
                                 />
                               </div>
                               <div className="d-flex flex-column">
-                                <div className="d-flex flex-row align-items-center justify-content-center">
+                                <div className="d-flex flex-row align-items-start justify-content-center">
                                 
                                    <div className="ms-2">
                                     
@@ -419,7 +419,7 @@ export default function Home() {
                                     </button>
                                   </div>
                                   <div>
-                                    <p className="ms-2" style={{cursor: "pointer"}}>What music genre</p>
+                                    <p className="ms-2 customStyle" style={{cursor: "pointer"}}>What music genre</p>
                                   </div>
                                 </div>
                                 <div className="ms-2">
