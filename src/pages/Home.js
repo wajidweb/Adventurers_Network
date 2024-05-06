@@ -7,19 +7,20 @@ import { FaMessage } from "react-icons/fa6";
 import { FaNewspaper } from "react-icons/fa";
 import { ImNewspaper } from "react-icons/im";
 import { GiCelebrationFire } from "react-icons/gi";
-
+import { Link } from "react-router-dom";
 import { MdViewComfyAlt } from "react-icons/md";
 import { FaUsers } from "react-icons/fa6";
 import { FaBook } from "react-icons/fa";
 import { GiFireplace } from "react-icons/gi";
 import { FaPlusSquare } from "react-icons/fa";
+import { GiCoffeeCup } from "react-icons/gi";
 
 export default function Home() {
   return (
     <div className="container " >
       <section className="container-fluid p-4">
         <p>
-          Formus <FaAngleRight />{" "}
+          Forums <FaAngleRight />{" "}
         </p>
 
         <div className="d-flex justify-content-end align-items-center">
@@ -61,13 +62,14 @@ export default function Home() {
                         id="panelsStayOpen-headingOne"
                       >
                         <button
-                          className="accordion-button  text-black"
+                          className="accordion-button  text-black fw-bold"
                           style={{ backgroundColor: "rgb(242,242,242)" }}
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#panelsStayOpen-collapseOne"
                           aria-expanded="true"
                           aria-controls="panelsStayOpen-collapseOne"
+                          
                         >
                           Meta
                         </button>
@@ -83,7 +85,7 @@ export default function Home() {
                               <FaNewspaper style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p>News & Announcements</p>
+                              <p className="fw-bold " style={{cursor: "pointer"}}>News & Announcements</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -94,12 +96,12 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1" >
-                            <p>Messages</p>
+                            <p className="fw-bold">Messages</p>
                               <p>236</p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
                             
-                              <p>Threads</p>
+                              <p className="fw-bold">Threads</p>
                               <p>2.9k</p>
                             </div>
                             <div className="d-flex flex-row">
@@ -117,14 +119,14 @@ export default function Home() {
                                     {" "}
                                     <button
                                       type="button"
-                                      class="btn btn-danger"
+                                      class="btn btn-danger pt-0 pb-0"
                                     >
                                       News
                                       <ImNewspaper className="ms-2" />
                                     </button>
                                   </div>
                                   <div>
-                                    <p className="ms-2">Discord Server</p>
+                                    <p  className="ms-2 " style={{cursor: "pointer"}}>Discord Server</p>
                                   </div>
                                 </div>
                                 <div className="ms-2">
@@ -147,7 +149,7 @@ export default function Home() {
                         id="panelsStayOpen-headingTwo"
                       >
                         <button
-                          className="accordion-button collapsed  text-black"
+                          className="accordion-button collapsed  text-black fw-bold"
                           style={{ backgroundColor: "rgb(242,242,242)" }}
                           type="button"
                           data-bs-toggle="collapse"
@@ -169,7 +171,7 @@ export default function Home() {
                               <FaUsers style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p>Hidden Spots</p>
+                              <p className="fw-bold" style={{cursor: "pointer"}}>Hidden Spots</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -180,12 +182,12 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                            <p>Messages</p>
+                            <p className="fw-bold">Messages</p>
                               <p>6.1k</p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
                               
-                              <p>Threads</p>
+                              <p className="fw-bold">Threads</p>
                               <p>80k</p>
                             </div>
                             <div className="d-flex flex-row">
@@ -201,7 +203,7 @@ export default function Home() {
                                 <div className="d-flex flex-row align-items-center justify-content-center">
                                   <div className="ms-2">
                                     
-                                    <button type="button" class="btn btn-info ">
+                                    <button type="button" class="btn btn-info p-0 ps-1 pe-1 ">
                                         <div className="d-flex flex-row mb-0">
                                         <p className="mb-0"> comfy</p>
                                       <span><MdViewComfyAlt className="ms-2" /></span>
@@ -209,7 +211,7 @@ export default function Home() {
                                     </button>
                                   </div>
                                   <div>
-                                    <p className="ms-2">
+                                    <p className="ms-2" style={{cursor: "pointer"}}>
                                       NEETing as a minimalist
                                     </p>
                                   </div>
@@ -232,7 +234,7 @@ export default function Home() {
                               <FaBook style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p>Travel Experiences</p>
+                              <p className="fw-bold" style={{cursor: "pointer"}}>Travel Experiences</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -243,11 +245,11 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                              <p>Threads</p>
+                              <p className="fw-bold">Threads</p>
                               <p>999</p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                              <p>Messages</p>
+                              <p className="fw-bold">Messages</p>
                               <p>15.1k</p>
                             </div>
                             <div className="d-flex flex-row">
@@ -263,7 +265,7 @@ export default function Home() {
                                 <div className="d-flex flex-row align-items-center justify-content-center">
                                 <div className="ms-2">
                                     
-                                    <button type="button" class="btn btn-info ">
+                                    <button type="button" class="btn btn-info  p-0 ps-1 pe-1 ">
                                         <div className="d-flex flex-row mb-0">
                                         <p className="mb-0"> comfy</p>
                                       <span><MdViewComfyAlt className="ms-2" /></span>
@@ -271,8 +273,8 @@ export default function Home() {
                                     </button>
                                   </div>
                                   <div>
-                                    <p className="ms-2">
-                                      Reading Kingdom is so epic
+                                    <p className="ms-2" style={{cursor: "pointer"}}>
+                                    NEETing as a minimalist
                                     </p>
                                   </div>
                                 </div>
@@ -291,7 +293,7 @@ export default function Home() {
                               <FaBook style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p>Meetup</p>
+                              <p className="fw-bold" style={{cursor: "pointer"}}>Meetup</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -302,12 +304,12 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                            <p>Messages</p>
+                            <p className="fw-bold">Messages</p>
                               <p>15.1k</p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
                             
-                              <p>Threads</p>
+                              <p className="fw-bold">Threads</p>
                               <p>999</p>
                             </div>
                             <div className="d-flex flex-row">
@@ -323,7 +325,7 @@ export default function Home() {
                                 <div className="d-flex flex-row align-items-center justify-content-center">
                                 <div className="ms-2">
                                     
-                                    <button type="button" class="btn btn-info ">
+                                    <button type="button" class="btn btn-info p-0 ps-1 pe-1  ">
                                         <div className="d-flex flex-row mb-0">
                                         <p className="mb-0"> comfy</p>
                                       <span><MdViewComfyAlt className="ms-2" /></span>
@@ -331,8 +333,8 @@ export default function Home() {
                                     </button>
                                   </div>
                                   <div>
-                                    <p className="ms-2">
-                                      Reading Kingdom is so epic
+                                    <p className="ms-2" style={{cursor: "pointer"}}>
+                                    NEETing as a minimalist
                                     </p>
                                   </div>
                                 </div>
@@ -354,7 +356,7 @@ export default function Home() {
                         id="panelsStayOpen-headingThree"
                       >
                         <button
-                          className="accordion-button collapsed  text-black"
+                          className="accordion-button collapsed  text-black fw-bold"
                           style={{ backgroundColor: "rgb(242,242,242)" }}
                           type="button"
                           data-bs-toggle="collapse"
@@ -373,10 +375,10 @@ export default function Home() {
                         <div className="accordion-body">
                           <div className="d-flex flex-lg-row flex-column align-items-center justify-content-between">
                             <div className="d-flex align-items-center justify-content-center pe-3">
-                              <GiCelebrationFire  style={{ fontSize: "30px" }} />
+                              <GiCoffeeCup   style={{ fontSize: "30px" }} />
                             </div>
                             <div className="d-flex flex-column">
-                              <p>The Lounge</p>
+                              <p className="fw-bold" style={{cursor: "pointer"}}>The Lounge</p>
                               <p
                                 style={{ fontSize: "10px" }}
                                 className="text-wrap"
@@ -388,11 +390,11 @@ export default function Home() {
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
                             
-                              <p>Messages</p>
+                              <p className="fw-bold">Messages</p>
                               <p>15.1k</p>
                             </div>
                             <div className="d-flex flex-column ms-1 me-1">
-                            <p>Threads</p>
+                            <p className="fw-bold">Threads</p>
                               <p>40.7k</p>
                             </div>
                             <div className="d-flex flex-row">
@@ -409,7 +411,7 @@ export default function Home() {
                                 
                                    <div className="ms-2">
                                     
-                                    <button type="button" class="btn btn-primary ">
+                                    <button type="button" class="btn btn-primary pt-0 pb-0 ">
                                         <div className="d-flex flex-row mb-0">
                                         <p className="mb-0"> Discussion</p>
                                       <span><FaMessage className="ms-2" /></span>
@@ -417,7 +419,7 @@ export default function Home() {
                                     </button>
                                   </div>
                                   <div>
-                                    <p className="ms-2">What music genre</p>
+                                    <p className="ms-2" style={{cursor: "pointer"}}>What music genre</p>
                                   </div>
                                 </div>
                                 <div className="ms-2">
@@ -469,12 +471,12 @@ export default function Home() {
                       <div className="col-md-9 text-secondary">
                         <div>
                           <p className="text-secondary mt-3">
-                            <span className="bg-primary p-2 rounded text-white">
-                              {" "}
+                            <span className="bg-primary p-1 rounded text-white ">
+                              
                               <GiFireplace />
                               <span className="ms-1 "> Discussion </span>{" "}
                             </span>
-                            I want to sell my soul to the devil
+                           <span className="ms-1 fw-bold" style={{cursor: "pointer"}}> I want to sell my soul to the devil</span>
                           </p>
                         </div>
                         <p>Started by uglybrat . 14 minutes ago</p>
@@ -496,14 +498,14 @@ export default function Home() {
                       </div>
                       {/* Right side with three small texts */}
                       <div className="col-md-9 text-secondary">
-                        <div>
+                      <div>
                           <p className="text-secondary mt-3">
-                            <span className="bg-primary p-2 rounded text-white ">
-                              {" "}
-                              <FaMessage />
+                            <span className="bg-primary p-1 rounded text-white ">
+                              
+                              <GiFireplace />
                               <span className="ms-1 "> Discussion </span>{" "}
                             </span>
-                            I want to sell my soul to the devil
+                           <span className="ms-1 fw-bold "  style={{cursor: "pointer"}}> I want to sell my soul to the devil</span>
                           </p>
                         </div>
                         <p>Started by uglybrat . 14 minutes ago</p>
@@ -525,14 +527,14 @@ export default function Home() {
                       </div>
                       {/* Right side with three small texts */}
                       <div className="col-md-9 text-secondary">
-                        <div>
+                      <div>
                           <p className="text-secondary mt-3">
-                            <span className="bg-primary p-2 rounded text-white ">
-                              {" "}
-                              <FaMessage />
+                            <span className="bg-primary p-1 rounded text-white ">
+                              
+                              <GiFireplace />
                               <span className="ms-1 "> Discussion </span>{" "}
                             </span>
-                            I want to sell my soul to the devil
+                           <span className="ms-1 fw-bold"  style={{cursor: "pointer"}}> I want to sell my soul to the devil</span>
                           </p>
                         </div>
                         <p>Started by uglybrat . 14 minutes ago</p>
@@ -568,11 +570,11 @@ export default function Home() {
                       <p>1,583</p>
                     </div>
                     <div className="container-fluid d-flex flex-row justify-content-between align-items-center pt-2  text-secondary">
-                      <p>Newest NEET: </p>
+                      <p>Newest Member: </p>
                       <p>joaosembracol12</p>
                     </div>
                     <div className="container-fluid d-flex flex-row justify-content-between align-items-center pt-2  text-secondary">
-                      <p>mEMBER TIME ONLINE: </p>
+                      <p>Server Runtime: </p>
                       <p>8388d 13h 19m</p>
                     </div>
                   </div>
